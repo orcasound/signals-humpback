@@ -1,36 +1,58 @@
-# signal-catalogue
-A place to build and store humpback and orca signal catalogues (aka catalogs). This repo was created by Emily Vierling as part of the [Salish Sea Humpback Vocalization Catalogue project](https://www.orcasound.net/portfolio/humpback-catalogue/).
+# signals-humpback
 
-## Goals
+Let's standardize how we name and label humpback whale signals in underwater sound data! How do we define the following classes of signals and agree upon nomenclature across the human languages used by humpback researchers across their range in the world's oceans?
 
-1. Specify a directory of audio files, each a FLAC file containing a single example of a signal.
-2. Pre-process the raw audio to optimize the spectrogram for human listeners.
-3. Generate a spectrogram of each FLAC file.
-4. Convert each signal clip to an audio format optimal for browser-base playback.
-5. Display the spectrograms with signal labels in a HTML5-based user interface that allows playback via the audio element.
+Add link to global song nomenclature Google Doc and any other associated resources...
 
-## Architecture
+## Classes of signals to define
 
-Version 1:
+1. Song vs non-song vocalization
+2. Social vs feeding calls
+3. Megapclicks and percussive sounds
 
-* manually generated Wordpress portfolio page, served at this URL -- [https://www.orcasound.net/portfolio/humpback-catalogue/](https://www.orcasound.net/portfolio/humpback-catalogue/)
-* source files (audio clips and images) stored in this repo (and shared with our [OrcaLab](https://orcalab.org/) collaborators)
-* built by Emily Vierling in 2022 (with mentors Val and Scott Veirs, and some help from her sister!)
-* [More info about Emily's humpback catalogue](https://github.com/orcasound/orcadata/wiki/Other-training-data:-humpback-whales#an-open-collaborative-humpback-signal-catalogue-catalog) and version 1 of this repo
+This repo was forked from the [signal-catalogue repo](https://github.com/orcasound/signal-catalogue) created by Emily Vierling as part of the [Salish Sea Humpback Vocalization Catalogue project](https://www.orcasound.net/portfolio/humpback-catalogue/).
 
-Vision for version 2:
+## Nomenclature for individual signals
 
-* Simple flat HTML site that can be generated locally and viewed/used in your favorite browser
-* index.html with single example of each signal
-* Individual pages with unique URLs for each signal type?
-* Where to store and whether to display "extra" examples of each signal (limit how many?), and/or "dirty" examples (e.g. with low SNR or variable/aberrant versions?)
+### Song (vocalization)
 
-OR
+Per Payne and McVay (1971) and many others since: a *song session* is a period in which a song is sung once or more; a *song* is a repeated sequences of themes; a *theme* each a sequence of phrases; a *phrase* is a sequence of units; a *unit* is an individual signal made up of ** (per Figure 1 of Payne and McVay, 1971):
 
-* Leverage the open source code from the HALLO project's killer whale (3 ecotype) web-based catalog?
+<img width="600" alt="Payne and McVay 1971 Figure 1" src="https://github.com/user-attachments/assets/e5ec47dc-b132-479a-96b5-fb7759947a7a" />
 
-### Future questions:
 
-* How to deploy to a web domain like humpbackcat.net (and code/architectural implications --> containerization; Github actions and CI/CD?)
-* How to also design repo to be cloned for easy offline browser-based use, e.g. while onboard a boat beyond cellular coverage?
+### Non-song vocalization
+
+12 signals commonly heard within the Salish Sea and Johnstone Strait (inland waters of Washington State, USA, and British Columbia, Canada)
+
+[Salish Sea Humpback Vocalization Catalogue project](https://www.orcasound.net/portfolio/humpback-catalogue/)
+
+The 12 signal types in version 1.0 of this humpback signal dictionary are:
+
+    Whup
+    Grunt
+    Ascending Moan
+    Descending Moan
+    Moan
+    Upsweep
+    Trumpet
+    Growl
+    Creak
+    Buzz
+    Shriek
+    Chirp
+
+[~9000 calls annotated with these labels are available as open training data within the orcadata wiki](https://github.com/orcasound/orcadata/wiki/Other-training-data:-humpback-whales#an-open-collaborative-humpback-signal-catalogue-catalog).
+
+#### Social and feeding calls
+
+Sounds commonly heard in Alaska and the open coast of British Columbia? 
+
+* Alaska examples?
+
+
+* BC examples
+  * [BC Whales humpback sound web page](https://bcwhales.org/learn/whales_we_research/humpback-whales/)
+
+#### Megapclicks and percussive sounds
 
