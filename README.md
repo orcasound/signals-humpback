@@ -29,7 +29,7 @@ Per Payne and McVay (1971) and many others since, song nomenclature includes:
 
 ### Non-song vocalization
 
-12 signals commonly heard within the Salish Sea and Johnstone Strait (inland waters of Washington State, USA, and British Columbia, Canada) are shown as spectrograms with playable corresponding audio clips in the [Salish Sea Humpback Vocalization Catalogue project](https://www.orcasound.net/portfolio/humpback-catalogue/) (v1 built by Emily Vierling in 2022:
+12 signals commonly heard within the Salish Sea and Johnstone Strait (inland waters of Washington State, USA, and British Columbia, Canada) are shown as spectrograms with playable corresponding audio clips in the [Salish Sea Humpback Vocalization Catalogue project](https://www.orcasound.net/portfolio/humpback-catalogue/) (v1 built by Emily Vierling in 2022):
 
 The 12 signal types in version 1.0 of this humpback signal dictionary are:
 
